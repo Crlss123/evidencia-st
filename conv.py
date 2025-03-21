@@ -27,3 +27,7 @@ def conv(matriz, kernel):
         for j in range(col_salida):
             salida[i,j] = conv_helper(matriz[i:i + filas_kernel, j:j + col_kernel], kernel)
 
+    salida = np.clip(salida, 0, 255).astype(np.uint8)
+
+    return salida
+
