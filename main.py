@@ -34,3 +34,8 @@ def main():
   image = conv(image, kernel_bordes)
   image = conv(image, kernel_relieve)
   image = padding(image, 1)
+  plt.imshow(image)
+  plt.axis('off')
+  plt.show()
+
+main()
