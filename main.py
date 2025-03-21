@@ -25,3 +25,12 @@ kernel_bordes = np.array([
   [-1,  5, -1],
   [ 0, -1,  0]
 ])
+
+def main():
+  path = input("Ingrese la ruta de la imagen: ")
+  image = cv2.imread(path, cv2.IMREAD_COLOR_RGB)
+  image = conv(image, kernel_nitidez)
+  image = conv(image, kernel_gauss)
+  image = conv(image, kernel_bordes)
+  image = conv(image, kernel_relieve)
+  image = padding(image, 1)
