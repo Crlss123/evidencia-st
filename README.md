@@ -12,5 +12,7 @@ El objetivo del programa es mejorar la legibilidad de documentos antiguos o desg
 ## Pruebas
 
 ### Antes
+![Antes](img/papel.jpg)
 
 ### Despues
+![Despues](img/output.png)
