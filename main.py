@@ -1,3 +1,18 @@
+"""
+Author:
+Carlos Amador <A01253409 at tec.mx>, Diana Escalante <A01253468 at tec.mx>, 
+Libia Flores <A01253425 at tec.mx>, Kimberly Marquez <A01255262 at tec.mx>
+
+Status: Prototype
+
+Type: Project
+
+Created: 23-Mar-2025
+
+Post-History: 20-Mar-2025
+
+"""
+
 import numpy as np
 import cv2
 from conv import conv
